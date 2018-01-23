@@ -1,0 +1,19 @@
+{
+  "name": "carrusel",
+  "version": "1.0.0",
+  "description": "Paquetes que usaremos en la libreria",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadiaQN/libreria-carrusel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadiaQN/libreria-carrusel/issues"
+  },
+  "homepage": "https://github.com/NadiaQN/libreria-carrusel#readme"
+}
