@@ -72,8 +72,8 @@ Demos:
 
 Autores:
 --------------------------
-Maria Jose Solar @marasolarp
+Maria Jose Solar [@marasolarp](https://github.com/marasolarp)
 
-Nadia Quezada @NadiaQN
+Nadia Quezada [@NadiaQN](https://github.com/NadiaQN)
 
 
