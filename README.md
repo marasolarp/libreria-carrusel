@@ -14,7 +14,7 @@ Muchas veces queremos agregar carruseles de imagenes a nuestra pagina web, sin e
  ##Carrusel-Automatico:
 
 Para hacer uso de este carrusel solo debes agregar a tu html:
-	```html
+	```
 	<div id="auto-carusel">
 		<!--Aquí puedes agregar todas las imagenes que quieras -->
 		<div><img src="link/ubicacionDeTuImagen"></div>
@@ -26,7 +26,7 @@ Debes agregar un div con id llamado "auto-carusel" luego puedes ingresar todas l
 ##Carrusel con iconos de navegación:
 
 Para hacer uso de este carrusel debes agregar a tu html:
-	```html
+	```
 	<ul class="list-images">
 		<!--Aquí irán tus imagenes -->
 		<li><img src="link/ubicacionDeTuImagen"></li>
@@ -38,7 +38,7 @@ Para hacer uso de este carrusel debes agregar a tu html:
     </ol>
     ```
 Este carrusel cuenta con 2 clases CSS para que puedas usar el color que quieras en los iconos de navegación:
-	```css
+	```
 	.iconsDefaultColor{
 		color: /*el color que quieras agregar*/
 	}
