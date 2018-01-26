@@ -5,15 +5,16 @@ Descripción del proyecto:
 --------------------------
 Muchas veces queremos agregar carruseles de imagenes a nuestra pagina web, sin embargo, crearlos desde 0 toma demasiado tiempo y se deben tener conocimientos de css y javascript. Existen frameworks como bootstrap y materialize, que incluyen sus propios carruseles, pero aún así necesitamos más opciones. Es por ello que hemos creado esta librería con diferentes opciones de carruseles para que puedas elegir, el que mejor se adapta a tu pagina web.
 
-##Instalación:
+Instalación:
 ---------------
 
 
-##Instrucciones de Uso:
+Instrucciones de Uso:
 ------------------------
- ##Carrusel-Automatico:
+ *Carrusel-Automatico:
 
 Para hacer uso de este carrusel solo debes agregar a tu html:
+
 	```
 	<div id="auto-carusel">
 		<!--Aquí puedes agregar todas las imagenes que quieras -->
@@ -26,6 +27,7 @@ Debes agregar un div con id llamado "auto-carusel" luego puedes ingresar todas l
 ##Carrusel con iconos de navegación:
 
 Para hacer uso de este carrusel debes agregar a tu html:
+
 	```
 	<ul class="list-images">
 		<!--Aquí irán tus imagenes -->
@@ -38,7 +40,8 @@ Para hacer uso de este carrusel debes agregar a tu html:
     </ol>
     ```
 Este carrusel cuenta con 2 clases CSS para que puedas usar el color que quieras en los iconos de navegación:
-	```
+	
+  ```
 	.iconsDefaultColor{
 		color: /*el color que quieras agregar*/
 	}
@@ -48,6 +51,7 @@ Este carrusel cuenta con 2 clases CSS para que puedas usar el color que quieras 
 	```
 
 IconsDefaultColor: se refiere al color que tendrán por defecto tus iconos.
+
 IconsNavegationColor: se refiere al color que tendrán los iconos al mostrar una imagen seleccionada.
 
 Ten cuidado de agregar a tu css estas clases en el orden que se indica para que los colores se muestren correctamente.
