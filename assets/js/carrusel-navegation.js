@@ -4,6 +4,7 @@ $(document).ready(function(){
   
   //estilos css
   $('.list-images, .navegation').css({'list-style' : 'none', 'text-align' : 'center'});
+  
   //contador de imagenes
   const imgItems = $('.list-images li').length;
   let imgPos = 1;
@@ -11,14 +12,16 @@ $(document).ready(function(){
   for(i = 1; i <= imgItems; i++){
     $('.navegation li:eq(0)').after('<li class="circle iconsDefaultColor"><span class="fa fa-circle"></span></li>');
   }
-
+  //estilos css
   $('.navegation li').css({'display' : 'inline' , 'cursor' : 'pointer', 'margin' : '1em'});
+  
   //Ocultar todas las imagenes
   $('.list-images li').hide();
   //Mostrar la primera imagen por defecto
   $('.list-images li:first').show();
-  //Agregar color al icono donde se muestra la primera imagen por defecto
+  //Agregar color al icono que representa la primera imagen por defecto
   $('.navegation li span:eq(1)').addClass('iconsNavegationColor');
+  
   //Funciones del carrusel
   $('.navegation .circle').click(pagination);
   $('.right span').click(nextSlider);
@@ -30,6 +33,7 @@ $(document).ready(function(){
 
 
   //Definiendo funciones
+  
   function pagination(){
     let paginationPos = $(this).index();
     imgPos = paginationPos;
@@ -45,6 +49,17 @@ $(document).ready(function(){
     if(imgPos >= imgItems){
       imgPos = 1;
     }else {
+
+
+
+
+
+
+
+
+
+
+      
       imgPos ++;
     }
     $('.navegation li span:eq(1)').removeClass('iconsNavegationColor');
