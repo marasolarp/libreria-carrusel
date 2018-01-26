@@ -11,7 +11,7 @@ Instalación:
 
 Instrucciones de Uso:
 ------------------------
- -Carrusel-Automatico:
+ 1.Carrusel-Automatico:
 
 Para hacer uso de este carrusel solo debes agregar a tu html:
 
@@ -24,7 +24,7 @@ Para hacer uso de este carrusel solo debes agregar a tu html:
 
 Debes agregar un div con id llamado "auto-carusel" luego puedes ingresar todas las imagenes que quieras, solo debes tener en cuenta que cada una de ellas debe estar contenida en un div.
 
--Carrusel con iconos de navegación:
+2.Carrusel con iconos de navegación:
 
 Para hacer uso de este carrusel debes agregar a tu html:
 
