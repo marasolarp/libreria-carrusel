@@ -11,7 +11,7 @@ function carouselNum() {
        pos++;
        if(pos > carouselText.length) {pos = 1}
        carouselText[pos-1].style.display = "block";
-       setTimeout(carouselNum,2000);       
+       setTimeout(carouselNum,4000);       
 }
 
 
