@@ -13,9 +13,10 @@
     <div><img src="https://res.cloudinary.com/tourhq/image/upload/c_fill,fl_progressive,g_auto:no_faces,h_300,q_auto:best,w_1200/k9gtejjzwxlkhjqj6n0d" alt=""></div>
     <div><img src="https://www.defiestaenamerica.com/wp-content/uploads/2017/10/FAB.png" alt=""></div>
   </div>
-  
-</body>
-<!-- jQuery -->
+  <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/carusel-automatico.js"></script>
+<script src="https://use.fontawesome.com/7e3056ac5b.js"></script>
+ </body>
+
 </html>
