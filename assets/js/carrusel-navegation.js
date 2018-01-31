@@ -1,7 +1,6 @@
-'Use strict'
 //Carrusel con flechas de navegación abajo de las imagenes
 $(document).ready(function(){
-  
+
   //estilos css
   $('.list-images, .navegation').css({'list-style' : 'none', 'text-align' : 'center'});
   
@@ -23,6 +22,7 @@ $(document).ready(function(){
   $('.navegation li span:eq(1)').addClass('iconsNavegationColor');
   
   //Funciones del carrusel
+
   $('.navegation .circle').click(pagination);
   $('.right span').click(nextSlider);
   $('.left span').click(prevSlider);
@@ -33,7 +33,6 @@ $(document).ready(function(){
 
 
   //Definiendo funciones
-  
   function pagination(){
     let paginationPos = $(this).index();
     imgPos = paginationPos;
@@ -49,17 +48,6 @@ $(document).ready(function(){
     if(imgPos >= imgItems){
       imgPos = 1;
     }else {
-
-
-
-
-
-
-
-
-
-
-      
       imgPos ++;
     }
     $('.navegation li span:eq(1)').removeClass('iconsNavegationColor');
@@ -84,3 +72,5 @@ $(document).ready(function(){
     $('.list-images li:nth-child('+ imgPos +')').fadeIn();
   }
 });
+
+module.exports = pagination;
