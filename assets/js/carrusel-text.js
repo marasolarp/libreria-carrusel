@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 	
-var pos = 0;
-    carouselNum();
+  var pos = 0;
+  carouselNum();
 
     function carouselNum() {
        var carouselText = document.getElementsByClassName("carousel");
