@@ -14,14 +14,6 @@ function carouselNum() {
        setTimeout(carouselNum,2000);       
 }
 
-
 });
 
-
-
-
-
-
-
-
- 
+module.exports = carouselNum;
