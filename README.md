@@ -28,7 +28,6 @@ Para hacer uso de este carrusel solo debes agregar a tu html:
 Debes agregar un div con id llamado "auto-carusel" luego puedes ingresar todas las imagenes que quieras, solo debes tener en cuenta que cada una de ellas debe estar contenida en un div.
 
 
-
 Carrusel con iconos de navegación:
 -----------------------------------
 
@@ -65,14 +64,13 @@ IconsNavegationColor: se refiere al color que tendrán los iconos al mostrar una
 Ten cuidado de agregar a tu css estas clases en el orden que se indica para que los colores se muestren correctamente.
 
 
+
+
 Demos:
 --------------------------
  [Carrusel Automatico](carusel-automatico.html)
 
  [Carrusel con Iconos de Navegación](indexCarruselNavegation.html)
-
-
-
 
 
 
