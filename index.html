@@ -4,9 +4,127 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Libreria Carrusel</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+	<header>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+				<h1 class=" text-title text-center">Libreria jquery con Carruseles</h1>
+		 	</div>
+		</div>
+	</header>
+	<!--Carusel de navegación-->
+	<section class="carruselnavegation">
+		<div class="container">
+		    <div class="row">
+		    	<div class="col-md-12">
+		        	<div class="page-header">
+		          			<h2 class="text-title ">Carrusel de Navegación</h2>
+		          	</div>
+		        </div>  
+		    </div>
+		    <!--comienzo carrusel de navegación-->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+				  	<ul class="list-images">
+						<!--Aquí irán tus imagenes -->
+						<li><img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg"></li>
+						<li><img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg"></li>
+						<li><img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg"></li>
+						<li><img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png"></li>
+					</ul>
+					<!--Aquí irán los iconos de navegación debes copiar tal cual esta sección, el script hará el resto -->
+					<ol class="navegation">
+						<li class="left iconsDefaultColor"><span class="fa fa-chevron-left"></span></li>
+						<li class="right iconsDefaultColor"><span class="fa fa-chevron-right"></span></li>
+					</ol>
+				</div>
+			</div>	 
+		</div>
+	</section>			
+	<!--Carrusel Automatico-->
+	<section class="carrusel Automatico">
+		<div class="container">
+		    <div class="row">
+		    	<div class="col-md-12">
+		        	<div class="page-header">
+		          		<h2 class="text-title">Carusel automático</h2>
+		          	</div>
+		         </div>
+		    </div>
+		    <!--comienzo carrusel automatico-->    
+	        <div class="row">
+	        	<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+	        		<div id="auto-carusel">
+						<!--Aquí puedes agregar todas las imagenes que quieras -->
+						<div>
+							<img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg">
+						</div>
+						<div>
+							<img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg">
+						</div>
+						<div>
+							<img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg">
+						</div>
+						<div>
+							<img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png">
+						</div>
+					</div>
+	        	</div>
+	        </div>
+	    </div>
+	</section>   
+	</section>			
+	<!--Carrusel Automatico-->
+	<section class="Carrusel con texto">
+		<div class="container">
+		    <div class="row">
+		    	<div class="col-md-12">
+		        	<div class="page-header">
+		          		<h2 class="text-title">Carusel automático</h2>
+		          	</div>
+		         </div>
+		    </div>    
+	        <!--comienzo carrusel con texto-->
+	        <div class="row">
+	        	<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+	        		<div class="carousel">
+						<img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg">
+						<div class="text"><p>Agrege aqui su texto</p></div> 
+					</div>
+
+					<div class="carousel">
+					    <img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg">
+					    <div class="text"><p>Agrege aqui su texto</p></div>
+					</div>
+
+					<div class="carousel">
+					    <img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg">
+					    <div class="text"><p>Agrege aqui su texto</p></div>
+					</div>
+					<div class="carousel">
+					    <img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png">
+					    <div class="text"><p >Agrege aqui su texto</p></div>
+					</div>
+	        	</div>
+	        </div>
+	    </div>
+	</section>       
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/7e3056ac5b.js"></script>
 	<script src="assets/js/app.js"></script>
+	<script src="assets/js/carrusel-navegation.js"></script>
+	<script src="assets/js/carusel-automatico.js"></script>
+	<script src="assets/js/carusel-numtext.js"></script>
 </body>
 </html>
