@@ -4,11 +4,11 @@ body{
 	color: #fff;
 
 /* css de carusel de navegación*/
-.iconsDefaultColor{
-	color: #00FFFF;
+.iconsDefaultColor {
+	color: blue;
 }
 .iconsNavegationColor{
-	color:#F07A8A;
+	color: red;
 }
 /*footer*/
 .footing{
@@ -16,7 +16,11 @@ body{
 	margin-top: 5em;
 
 }
-
+pre{
+	white-space: pre-wrap;
+	margin: 10px 0 10px 0;
+	padding: 30px 1px 10px 10px;
+}
 
 /* carusel con texto version 3*/
 /*.caruselV3{
