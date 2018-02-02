@@ -1,10 +1,7 @@
 body{
 	background-color: #000;
 	font-family: 'Rasa', serif;
-}
-.text-title{
 	color: #fff;
-}
 
 /* css de carusel de navegación*/
 .iconsDefaultColor{
@@ -13,18 +10,15 @@ body{
 .iconsNavegationColor{
 	color:#F07A8A;
 }
-/*carussel texto*/
-.c/*arousel{
-	position: relative;
-    text-align: center;
-    color: white;
-	}
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-   } */
-/*rgba(0, 8, 20, 0.5) color del div*/
+/*footer*/
+.footing{
+	background-color: rgba(39, 37, 37, 0.32);
+	margin-top: 5em;
+
+}
+
+
+/* carusel con texto version 3*/
 /*.caruselV3{
 	width: 100%;
 	position: relative;
