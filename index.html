@@ -1,130 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Libreria Carrusel</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Libreria Jquery de Carrusel</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Rasa:700" rel="stylesheet">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<header>
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-				<h1 class=" text-title text-center">Libreria jquery con Carruseles</h1>
-		 	</div>
-		</div>
-	</header>
-	<!--Carusel de navegación-->
-	<section class="carruselnavegation">
-		<div class="container">
-		    <div class="row">
-		    	<div class="col-md-12">
-		        	<div class="page-header">
-		          			<h2 class="text-title ">Carrusel de Navegación</h2>
-		          	</div>
-		        </div>  
-		    </div>
-		    <!--comienzo carrusel de navegación-->
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-				  	<ul class="list-images">
-						<!--Aquí irán tus imagenes -->
-						<li><img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg"></li>
-						<li><img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg"></li>
-						<li><img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg"></li>
-						<li><img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png"></li>
-					</ul>
-					<!--Aquí irán los iconos de navegación debes copiar tal cual esta sección, el script hará el resto -->
-					<ol class="navegation">
-						<li class="left iconsDefaultColor"><span class="fa fa-chevron-left"></span></li>
-						<li class="right iconsDefaultColor"><span class="fa fa-chevron-right"></span></li>
-					</ol>
-				</div>
-			</div>	 
-		</div>
-	</section>			
-	<!--Carrusel Automatico-->
-	<section class="carrusel Automatico">
-		<div class="container">
-		    <div class="row">
-		    	<div class="col-md-12">
-		        	<div class="page-header">
-		          		<h2 class="text-title">Carusel automático</h2>
-		          	</div>
-		         </div>
-		    </div>
-		    <!--comienzo carrusel automatico-->    
-	        <div class="row">
-	        	<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-	        		<div id="auto-carusel">
-						<!--Aquí puedes agregar todas las imagenes que quieras -->
-						<div>
-							<img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg">
-						</div>
-						<div>
-							<img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg">
-						</div>
-						<div>
-							<img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg">
-						</div>
-						<div>
-							<img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png">
-						</div>
-					</div>
-	        	</div>
-	        </div>
-	    </div>
-	</section>   
-	</section>			
-	<!--Carrusel Automatico-->
-	<section class="Carrusel con texto">
-		<div class="container">
-		    <div class="row">
-		    	<div class="col-md-12">
-		        	<div class="page-header">
-		          		<h2 class="text-title">Carusel automático</h2>
-		          	</div>
-		         </div>
-		    </div>    
-	        <!--comienzo carrusel con texto-->
-	        <div class="row">
-	        	<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-	        		<div class="carousel">
-						<img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg">
-						<div class="text"><p>Agrege aqui su texto</p></div> 
-					</div>
-
-					<div class="carousel">
-					    <img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg">
-					    <div class="text"><p>Agrege aqui su texto</p></div>
-					</div>
-
-					<div class="carousel">
-					    <img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg">
-					    <div class="text"><p>Agrege aqui su texto</p></div>
-					</div>
-					<div class="carousel">
-					    <img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png">
-					    <div class="text"><p >Agrege aqui su texto</p></div>
-					</div>
-	        	</div>
-	        </div>
-	    </div>
-	</section>       
-	<script
-  	src="https://code.jquery.com/jquery-3.2.1.min.js"
-  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  	crossorigin="anonymous"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="https://use.fontawesome.com/7e3056ac5b.js"></script>
-	<script src="assets/js/app.js"></script>
-	<script src="assets/js/carrusel-navegation.js"></script>
-	<script src="assets/js/carusel-automatico.js"></script>
-	<script src="assets/js/carusel-numtext.js"></script>
+  <header>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 class=" text-title text-center">Libreria jquery con Carruseles</h1>
+        <blockquote class="text-center">
+            <p>Muchas veces queremos agregar carruseles de imagenes a nuestra pagina web, sin embargo, crearlos desde 0 toma demasiado tiempo y se deben tener conocimientos de css y javascript. Existen frameworks como bootstrap y materialize, que incluyen sus propios carruseles, pero aún así necesitamos más opciones. Es por ello que hemos creado esta librería con diferentes opciones de carruseles para que puedas elegir, el que mejor se adapta a tu pagina web.</p>
+        </blockquote>
+      </div>
+    </div>
+  </header>
+  <!--Carusel de navegación-->
+  <section class="carruselnavegation">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="page-header">
+            <h2 class="text-title ">Carrusel de Navegación</h2>
+          </div>
+        </div>  
+      </div>
+      <!--comienzo carrusel de navegación-->
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12-12 col-xs-12">
+          <ul class="list-images">
+            <!--Aquí irán tus imagenes -->
+            <li><img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg"></li>
+            <li><img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg"></li>
+            <li><img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png"></li>
+            <li><img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg"></li>
+          </ul>
+          <!--Aquí irán los iconos de navegación debes copiar tal cual esta sección, el script hará el resto -->
+          <ol class="navegation">
+            <li class="left iconsDefaultColor"><span class="fa fa-chevron-left"></span></li>
+            <li class="right iconsDefaultColor"><span class="fa fa-chevron-right"></span></li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12-12 col-xs-12">
+          <h4>Para hacer uso de este carrusel debes agregar a tu html:</h34>
+          <pre>
+            <code>
+              &lt;ul class="list-images">
+                &lt;!--Aquí iran tus imagenes&lt;->
+                &lt;li&lt;img src="link/ubicacionDeTuImagen">&lt;/li>
+              &lt;/ul>
+              &lt;!--Aquí irán los iconos de navegación debes copiar tal cual esta sección, el script hará el resto-->
+              &lt;ol class="navegation">
+                &lt;li class="left iconsDefaultColor">&lt;span class="fa fa-chevron-left">&lt;/span>&lt;/li>
+               &lt;/ol>
+            </code>
+          </pre>
+          <h34>Este carrusel cuenta con 2 clases CSS para que puedas usar el color que quieras en los iconos de navegación:</h4>
+          <pre>
+            <code>
+              .iconsDefaultColor{ 
+                color: {/*el color que quieras agregar*/;}
+              .iconsNavegation
+                Color{/*el color que quieras agregar*/}
+             </code>
+          </pre>
+          <h4>IconsDefaultColor: se refiere al color que tendrán por defecto tus iconos.</h4>
+          <h4>IconsNavegationColor: se refiere al color que tendrán los iconos al mostrar una imagen seleccionada.</h4>
+          <h4>Ten cuidado de agregar a tu css estas clases en el orden que se indica para que los colores se muestren correctamente.</h4>
+          <h4>Para que puedas usar el carrusel debes agregar el siguiente código en tu HTML, que es un script:</h4>
+            <pre>
+              &lt;script src="assets/js/carrusel-navegation.js">
+            </pre>
+        </div>
+      </div> 
+    </div>
+  </section>          
+  <!--Carrusel Automatico-->
+  <section class="carrusel Automatico">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="page-header">
+            <h2 class="text-title">Carusel automático</h2>
+          </div>
+        </div>
+      </div>
+      <!--comienzo carrusel automatico-->    
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div id="auto-carusel">
+            <!--Aquí puedes agregar todas las imagenes que quieras -->
+            <div>
+              <img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg">
+            </div>
+            <div>
+              <img src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg">
+            </div>
+            <div>
+              <img src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg">
+            </div>
+            <div>
+              <img src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h4>Para hacer uso de este carrusel solo debes agregar a tu html:</4>
+          <pre>
+            &lt;div id="auto-carusel">
+              &lt;>Aquí puedes agregar todas las imagenes que quieras&lt;/-->
+              &lt;div&lt;img src="link/ubicacionDeTuImagen">&lt;/div>
+            &lt;/div>
+          </pre>
+          <h4>Debes agregar un div con id llamado "auto-carusel" luego puedes ingresar todas las imagenes que quieras, solo debes tener en cuenta que cada una de ellas debe estar contenida en un div.</h4>
+          <h4>Para que puedas usar el carrusel debes agregar el siguiente código en tu HTML, que es un script:</h4>
+            <pre>
+              &lt;script src="assets/js/carrusel-automatico.js"> >
+              &lt;/script>
+            </pre>
+        </div>
+      </div>
+    </div>
+  </section>   
+  <section>
+    <!--Carrusel con texto-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="page-header">
+            <h2 class="text-title">Carrusel con texto</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <!--Aqui puedes agregar todas las imagenes que quieras-->
+          <div class="caruselV3"> 
+            <div class="carousel">
+              <img class="img-carousel" src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-Geometric-Abstract-Backgrounds-1.jpg" >
+              <div class="text">
+                <h1>Lorem Ipsum</h1>
+                <p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque nemo quasi officia omnis labore officiis asperiores, eaque animi natus ipsa ratione aliquid ut earum, blanditiis quibusdam. Quia ea, incidunt.</p>
+              </div> 
+            </div>
+            <div class="carousel">
+              <img class="img-carousel" src="https://www.cssauthor.com/wp-content/uploads/2016/04/Free-High-Res-Geometric-Polygon-Backgrounds-3.jpg">
+              <div class="text">
+                <h1>Lorem Ipsum</h1>
+                <p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque nemo quasi officia omnis labore officiis asperiores, eaque animi natus ipsa ratione aliquid ut earum, blanditiis quibusdam. Quia ea, incidunt.</p>
+              </div>
+            </div>
+            <div class="carousel">
+              <img class="img-carousel" src="https://cdn-images-1.medium.com/max/1600/0*JI6nd585CjCXGmXi.jpg">
+              <div class="text">
+                <h1>Lorem Ipsum</h1>
+                <p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque nemo quasi officia omnis labore officiis asperiores, eaque animi natus ipsa ratione aliquid ut earum, blanditiis quibusdam. Quia ea, incidunt.</p>
+              </div>
+            </div>
+            <div class="carousel">
+              <img class="img-carousel" src="http://www.theartmad.com/wp-content/uploads/2015/02/3d-Geometric-Triangle-Wallpaper-1-600x300.png">
+              <div class="text">
+                <h1>Lorem Ipsum</h1>
+                <p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque nemo quasi officia omnis labore officiis asperiores, eaque animi natus ipsa ratione aliquid ut earum, blanditiis quibusdam. Quia ea, incidunt.</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h4>Para hacer uso de este carrusel solo debes agregar a tu html:</h4>
+            <pre>
+              &lt;div class="caruselV3">
+                &lt;!--Aquí puedes agregar todas las imagenes que quieras-->
+                &lt;div class="carousel">
+                  &lt;img src="link/ubicacionDeTuImagen">
+                  &lt;div class="text">
+                    &lt;h1>Lorem Ipsum&lt;/h1>
+                    &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque nemo quasi officia omnis labore officiis asperiores, eaque animi natus ipsa ratione aliquid ut earum, blanditiis quibusdam. Quia ea, incidunt.&lt;/p>
+                  &lt;/div>
+                &lt;/div>
+              &lt;/div>
+            </pre>  
+            <h4>Para que puedas usar el carrusel debes agregar el siguiente código en tu HTML, que es un script:</h4>
+            <pre>
+              &lt;script src="assets/js/carrusel-text.js"> >
+              &lt;/script>
+            </pre>
+          </div>  
+      </div> 
+    </div>
+  </section> 
+  <footer class="footing">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-7 col-lg-offset-5 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
+        <h3>Desarrolladoras</h3>
+        <a href="https://github.com/NadiaQN/libreria-carrusel"><h4> Nadia Quezada</h4></a>
+        <a href="https://github.com/marasolarp/libreria-carrusel"><h4>Maria Jose Solar</h4></a>
+      </div>
+    </div>
+    </div>
+  </footer>      
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/7e3056ac5b.js"></script>
+    <script src="assets/js/carrusel-navegation.js"></script>
+    <script src="assets/js/carrusel-automatico.js"></script>
+    <script src="assets/js/carrusel-text.js"></script>
 </body>
 </html>
