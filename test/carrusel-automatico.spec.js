@@ -13,18 +13,18 @@ global.navigator = {
 
 var $ = require('jquery');
 var expect = require('chai').expect;
-const carruselAutomaticDom = require('../assets/js/carusel-automatico');
+const carruselAutomaticDom = require('../assets/js/carrusel-automatico');
 
 describe("Comprobar extensión", () => {
 
 	it("Comprobar .jpg, .png", () => {
-		expect(carruselAutomaticDom.extension(), true)
+		expect(carruselAutomaticDom.extension, true)
 	})
 })
 
 describe("Comprobar id", () => {
 
   it("Existe el id", () => {
-    chai.assert.exist($('#auto-carusel'));
+    chai.assert.exists($('#auto-carusel'));
   })
 })

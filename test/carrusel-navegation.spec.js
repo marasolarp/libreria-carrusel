@@ -12,20 +12,20 @@ global.navigator = {
 };
 
 var $ = require('jquery');
-var expect = require('chai').expect; 
+var expect = require('chai').expect;
 const carruselNavegationDom = require('../assets/js/carrusel-navegation');
 
 describe("Comprobar extensión", () => {
   
   it("Comprobar .jpg, .png", () => {
-    expect(carruselNavegationDom.extension(),true)
+    expect(carruselNavegationDom.extension,true)
   })
 
 describe("Comprobar clases", () => {
 
   it("Existe las clases", () => {
-    chai.assert.exist($('.list-images'));
-    chai.assert.exist($('.navegation'));
+    chai.assert.exists($('.list-images'));
+    chai.assert.exists($('.navegation'));
   })
 
 })

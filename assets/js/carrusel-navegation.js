@@ -1,3 +1,5 @@
+var $ = require('jquery');
+
 //Carrusel con iconos de navegación
 $(document).ready(function(){
   carouselNavegation();
